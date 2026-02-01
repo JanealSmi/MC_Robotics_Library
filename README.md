@@ -7,4 +7,4 @@
 * Be appropriate and respectful, comments will be available for questions on specific lines as this is an open library.
 * Check if what is about to be uploaded, such as base code or a how-to, is already in existance, if something must be updated alert the team and work to change the original instead of uploading more files.
 
-  Feel free to copy and paste lines of code or functions into code and ask questions! It is understandable that not everything will be clear when first learning how to do something!
+ Feel free to copy and paste lines of code or functions into code and ask questions! It is understandable that not everything will be clear when first learning how to do something!
