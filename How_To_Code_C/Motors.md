@@ -22,4 +22,4 @@ return 0;
   ```
 Here the bot will move forward on both wheels, connected to port 0 and 3 at 100 power for 5 seconds.
 
-Try experimenting with the direction by changing the +100 to a -100
+Try experimenting with the direction by changing the +100 to -100
