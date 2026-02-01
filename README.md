@@ -1,6 +1,6 @@
 # MCRoboticsLibrary
   This is the official Malden Catholic Robotics Library!
-  Here you can find anything fron base code instructions, like how to code in C for a beginner, and more complex methods or fuctions of code like using functions, the camera, slow servo or even precise motor ticks.
+  Here you can find anything fron base code instructions, like how to code in C (or other languages in the future) for a beginner, and more complex methods or fuctions of code like using functions, the camera, slow servo or even precise motor ticks.
   
   Here anyone can access any piece of code and reference it for help later on, so please be respectful and follow some rules when uploading or adding code:
 * Do not delete or change other's code without explicit instruction or permission, this is a resource to store information not erase it!
