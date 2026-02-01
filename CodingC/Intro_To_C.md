@@ -18,7 +18,7 @@ Here the code shows the #includes which a allow the code to access the kipr libr
 
 Do not delete these, they are required for any code to function!
 
-From the ``int main(){ ``down to the ``return 0; }`` is where any active code being down by the robot will go, anything written outside of these lines will not be read or acted by the robot.
+From the ``int main(){ ``down to the ``return 0; }`` is where any active code being done by the robot should go, anything written outside of these lines will not be read or acted by the robot.
 
 Commenting allows a programmer to leave notes, reminders or most importantly explanations as to what a code does. A coder who doesn't comment can get lost or when allowing someone else to look at a code the function or actions being done may not be clear to read. You can use `//` to comment out a line or `/*` to comment out multiple, closing this with `*/` when at the end of the comment.
 
