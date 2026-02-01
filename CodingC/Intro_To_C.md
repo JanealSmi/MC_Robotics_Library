@@ -1,5 +1,6 @@
 Most if not all code is read the same way by an IDE (the place you code) 
 The order in which you write it is the order it will read it
+
 This means code must be written chronologically or in the order you wish the actions to take place
 
 When first opening the IDE you will find 
