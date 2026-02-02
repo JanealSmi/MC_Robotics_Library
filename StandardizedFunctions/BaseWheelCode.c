@@ -32,15 +32,15 @@
 	}
 	
 	// Loop Functions
-	void drive (int power){
+	void drive_nt (int power){
 	  motor(0,power);
 	  motor(3,power);
 	}
-		void right (int power){
+	void right_nt (int power){
 		motor(0,-power);
 		motor(3,power);
 	}
-	void left (int power){
+	void left_nt (int power){
 		motor(0,power);
 		motor(3,-power);
 	}
