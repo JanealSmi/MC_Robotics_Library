@@ -7,7 +7,7 @@ The code we can use in a while loop is:
 
 We can also use true (`1`) or false (`0`) or inequality values such as `< > = ` or combinations to make `<= >=` to specify a value we want the bot to go on.
 
-When writing something like a button being pressed we must first define which sensor port and the value we want, and because buttons are digital they only operate on a true or false.
+When writing something like a button being pressed we must first define which sensor port and value we want, and because buttons are digital they only operate on a true or false.
 
     #include <stdio.h>  
 	  #include <kipr/wombat.h>
@@ -21,7 +21,7 @@ When writing something like a button being pressed we must first define which se
       return 0;
     }
 
-Here the bot will turn when the button connected to port 0 isn't pressed, however to get the bot out of this loop we can add an `if` statment to `break;` the loop:
+Here the bot will turn when the button connected to port 0 isn't pressed, however to get the bot out of this loop/ to stop we can add an `if` statment to `break;` the loop:
 
     #include <stdio.h>  
 	  #include <kipr/wombat.h>
@@ -39,7 +39,7 @@ Here the bot will turn when the button connected to port 0 isn't pressed, howeve
       return 0;
     } 
 
-When doing inequalities we can  use a similar format, here I'll be using an ET/Distance sensor as it is an `analog` sensor:
+When doing inequalities we can use a similar format using a range we set, here I'll be using an ET/Distance sensor as it is an `analog` sensor:
 
     #include <stdio.h>  
 	  #include <kipr/wombat.h>
@@ -56,5 +56,7 @@ When doing inequalities we can  use a similar format, here I'll be using an ET/D
 
       return 0;
     } 
+
+	
 
 
