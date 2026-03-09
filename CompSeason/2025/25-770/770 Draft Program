@@ -1,0 +1,41 @@
+#include <kipr/wombat.h>
+
+void drive(int power, int time){
+    motor(3,power);
+    motor(1,power);
+    msleep(time);
+}
+
+void left(int power, int time){
+    motor(3,0);
+    motor(1,power);
+    msleep(time);
+}
+
+void right(int power, int time){
+    motor(3,power);
+    motor(1,0);
+    msleep(time);
+}
+
+void arm(int degree, int time){
+    enable_servos();
+    set_servo_position(3, degree);
+    msleep(time);
+    ao();
+}
+
+void claw(int degree, int time){
+    enable_servos();
+    set_servo_position(2, degree);
+    msleep(time);
+    ao();
+}
+//arm degree = degree<90 lower, degree>90 higher
+//claw degree = degree<90 open, degree>90 close
+//Calibrate wait_for_light everytime you run it [Find by clicking program -> program name]
+int main()
+{
+    wait_for_light(0);
+    return 0;
+}
